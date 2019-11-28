@@ -1,0 +1,150 @@
+html{
+    background-color: #E0E0E0;
+}
+
+#outer {
+    height: 450px;
+    width: 550px;
+    background-color: #9DD2EA;
+    margin: 100px auto;
+    border-radius: 3%;
+    position: relative;
+}
+
+#score {
+    padding:10px;
+    margin: 15px 5px;
+    position: absolute;
+    right: 20px;
+    background-color: #F1FF92;
+}
+
+#correct {
+    padding:10px;
+    margin: 15px 5px;
+    position: absolute;
+    right: 250px;
+    background-color: rgb(24, 223, 74);
+    display: none;
+}
+
+#wrong {
+    padding:10px;
+    margin: 15px 5px;
+    position: absolute;
+    right: 250px;
+    background-color: rgb(240, 29, 58);
+    display: none;
+}
+
+#question{
+    margin-top: 80px;
+    margin-left: 75px;
+    height: 150px;
+    width: 400px;
+    position: absolute;
+    right: 75px;
+    background-color: #9DA0EA;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+
+}
+
+#click{
+    margin-top: 240px;
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    right: 75px;
+    background-color: #B481D9;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+#number1{
+    margin-top: 300px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 5%;
+    background-color: #FFFFFF;
+    left: 75px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#number2{
+    margin-top: 300px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 5%;
+    background-color: #FFFFFF;
+    left: 183px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#number3{
+    margin-top: 300px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 5%;
+    background-color: #FFFFFF;
+    left: 290px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#number4{
+    margin-top: 300px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 5%;
+    background-color: #FFFFFF;
+    right: 75px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#reset{
+    margin-top: 390px;
+    padding: 10px;
+    left: 250px;
+    position: absolute;
+    background-color: #ECECEC;
+    border-radius: 10%;
+}
+
+#time{
+    margin-top: 390px;
+    padding: 10px;
+    right: 10px;
+    position: absolute;
+    background-color: #B0E64C;
+    border-radius: 10%;
+    display: none;
+}
+
+#gameover{
+    margin-top: 100px;
+    height: 200px;
+    width: 450px;
+    position: absolute;
+    right: 50px;
+    background: linear-gradient(#F3C76B, #F3726C);
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 80px;
+    text-align: center;
+    display: none;
+}
